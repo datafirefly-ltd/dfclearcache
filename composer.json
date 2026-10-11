@@ -1,0 +1,39 @@
+{
+    "name": "datafirefly/dfclearcache",
+    "description": "Free PrestaShop 8 & 9 module that adds a Clear cache button to the back-office toolbar: one click purges Smarty, XML, Media, Symfony, object cache and OPcache without reloading the page.",
+    "type": "prestashop-module",
+    "version": "1.1.0",
+    "homepage": "https://www.datafirefly.com/en/product/datafirefly-cache-clear/",
+    "license": "proprietary",
+    "keywords": [
+        "prestashop",
+        "prestashop-module",
+        "prestashop-8",
+        "prestashop-9",
+        "clear-cache",
+        "cache",
+        "smarty",
+        "symfony",
+        "opcache",
+        "back-office",
+        "developer-tools",
+        "datafirefly"
+    ],
+    "authors": [
+        {
+            "name": "DataFirefly",
+            "homepage": "https://www.datafirefly.com/en/"
+        }
+    ],
+    "support": {
+        "docs": "https://www.datafirefly.com/en/documentation/datafirefly-cache-clear/",
+        "issues": "https://github.com/datafirefly-ltd/dfclearcache/issues",
+        "source": "https://github.com/datafirefly-ltd/dfclearcache"
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "config": {
+        "prepend-autoloader": false
+    }
+}
